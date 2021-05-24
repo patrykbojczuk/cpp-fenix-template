@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/FenixTemplates/FenixTemplates/master/fenix-schema.json",
     "author": "Patryk Bojczuk",
     "repoName": "C++ Fenix Template",
-    "repoUrl": "https://github.com/patrykbojczuk/cpp-fenix-template/tree/main",
+    "repoUrl": "https://raw.githubusercontent.com/patrykbojczuk/cpp-fenix-template/main/",
     "version": 1.0,
     "templates": [
         {
