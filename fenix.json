@@ -1,0 +1,40 @@
+{
+    "$schema": "https://raw.githubusercontent.com/FenixTemplates/FenixTemplates/master/fenix-schema.json",
+    "author": "Patryk Bojczuk",
+    "repoName": "C++ Fenix Template",
+    "repoUrl": "https://github.com/patrykbojczuk/cpp-fenix-template/main/",
+    "version": 1.0,
+    "templates": [
+        {
+            "id": "cpp-fenix-template-clang-macos",
+            "displayName": "[Clang/LLDB] C++ macOS",
+            "description": "Create a C++ project structure for Clang with Makefile",
+            "language": "C++",
+            "category": ["Programming"],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+            "directories": [".vscode", "bin", "include", "lib", "src"],
+            "files": {
+                "download": [
+                    {
+                        "from": "cpp/main.cpp",
+                        "to": "src/main.cpp"
+                    },
+                    {
+                        "from": "clang/Makefile",
+                        "to": "Makefile"
+                    },
+                    {
+                        "from": "cpp/tasks.json",
+                        "to": ".vscode/tasks.json"
+                    },
+                    {
+                        "from": "clang/launch.json",
+                        "to": ".vscode/launch.json"
+                    }
+                ],
+                "open": ["src/main.cpp"]
+            },
+            "command": "make run"
+        }
+    ]
+}
