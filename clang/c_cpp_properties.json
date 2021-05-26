@@ -9,7 +9,7 @@
             "macFrameworkPath": [
                 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
             ],
-            "compilerPath": "/usr/bin/g++",
+            "compilerPath": "/usr/local/Cellar/gcc/11.1.0_1/bin//g++-11",
             "cStandard": "c17",
             "cppStandard": "c++20",
             "intelliSenseMode": "macos-gcc-x64"
