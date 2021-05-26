@@ -1,4 +1,4 @@
-CXX		  := g++
+CXX		  := g++-11
 CXX_FLAGS := -Wall -Wextra -std=c++2b -g
 
 BIN		:= bin
