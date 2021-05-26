@@ -1,5 +1,5 @@
 CXX		  := g++
-CXX_FLAGS := -Wall -Wextra -std=c++2b -g
+CXX_FLAGS := -Wall -Wextra -std=c++2b -ggdb
 
 BIN		:= bin
 SRC		:= src
@@ -13,7 +13,7 @@ EXECUTABLE	:= main
 all: $(BIN)/$(EXECUTABLE)
 
 run: clean all
-	clear && printf '\33c\e[3J'
+	clear
 	./$(BIN)/$(EXECUTABLE)
 
 $(BIN)/$(EXECUTABLE): $(SRC)/*.cpp

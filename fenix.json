@@ -24,7 +24,7 @@
                         "to": "Makefile"
                     },
                     {
-                        "from": "cpp/.gitignore",
+                        "from": "cpp/git.ignore",
                         "to": ".gitignore"
                     },
                     {
