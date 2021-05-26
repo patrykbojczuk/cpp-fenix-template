@@ -6,9 +6,9 @@
     "version": 1.0,
     "templates": [
         {
-            "id": "cpp-fenix-template-clang-macos",
-            "displayName": "[Clang/LLDB] C++ macOS",
-            "description": "Create a C++ project structure for Clang with Makefile",
+            "id": "cpp-fenix-template-gpp-macos",
+            "displayName": "[G++/GBD] C++ macOS",
+            "description": "Create a C++ project structure for G++ with Makefile",
             "language": "C++",
             "category": ["Programming"],
             "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
@@ -20,7 +20,7 @@
                         "to": "src/main.cpp"
                     },
                     {
-                        "from": "clang/Makefile",
+                        "from": "gpp/Makefile",
                         "to": "Makefile"
                     },
                     {
@@ -32,11 +32,11 @@
                         "to": ".vscode/tasks.json"
                     },
                     {
-                        "from": "clang/launch.json",
+                        "from": "gpp/launch.json",
                         "to": ".vscode/launch.json"
                     },
                     {
-                        "from": "clang/c_cpp_properties.json",
+                        "from": "gpp/c_cpp_properties.json",
                         "to": ".vscode/c_cpp_properties.json"
                     }
                 ],
