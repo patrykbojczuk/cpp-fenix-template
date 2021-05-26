@@ -34,6 +34,10 @@
                     {
                         "from": "clang/launch.json",
                         "to": ".vscode/launch.json"
+                    },
+                    {
+                        "from": "clang/c_cpp_properties.json",
+                        "to": ".vscode/c_cpp_properties.json"
                     }
                 ],
                 "open": ["src/main.cpp"]
