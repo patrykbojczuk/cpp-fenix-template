@@ -51,6 +51,49 @@
                     "default": "Me"
                 }
             ]
+        },
+        {
+            "id": "pico-macos",
+            "displayName": "[CMake/G++] C++ Pico",
+            "description": "Create a CMake/C++ project structure to develop for Raspberry Pi Pico",
+            "language": "C++",
+            "category": ["Programming", "Raspberry Pi", "Pico"],
+            "img": "https://upload.wikimedia.org/wikipedia/en/c/cb/Raspberry_Pi_Logo.svg",
+            "directories": [".vscode", "src", "cmake-build-uni"],
+            "files": {
+                "download": [
+                    {
+                        "from": "pico/git.ignore",
+                        "to": ".gitignore"
+                    },
+                    {
+                        "from": "pico/main.cpp",
+                        "to": "main.cpp"
+                    },
+                    {
+                        "from": "pico/CMakeLists.txt",
+                        "to": "CMakeLists.txt"
+                    },
+                    {
+                        "from": "pico/extensions.json",
+                        "to": ".vscode/extensions.json"
+                    },
+                    {
+                        "from": "pico/settings.json",
+                        "to": ".vscode/settings.json"
+                    }
+                ],
+                "open": ["CMakeLists.txt", "main.cpp"]
+            },
+            "command": "cd cmake-build-uni && cmake .. && make",
+            "environment": [
+                {
+                    "id": "author",
+                    "title": "Author",
+                    "description": "Patryk Bojczuk",
+                    "default": "Me"
+                }
+            ]
         }
     ]
 }

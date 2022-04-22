@@ -1,0 +1,5 @@
+{
+    "cmake.parallelJobs": 0,
+    "cmake.generator": "Unix Makefiles",
+    "cmake.buildDirectory": "${workspaceFolder}/cmake-build-uni"
+}
